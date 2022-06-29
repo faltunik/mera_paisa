@@ -1,4 +1,19 @@
-1. User Login
-2. User Registration
-3. User Logout
-4. User Search
+# 1. User Login
+# 2. User Registration
+# 3. User Logout
+# 4. User Search
+
+# from plaid.model.products import Products
+# from plaid.model.sandbox_public_token_create_request import SandboxPublicTokenCreateRequest
+# from plaid.model.sandbox_public_token_create_request_options import SandboxPublicTokenCreateRequestOptions
+
+# pt_request = SandboxPublicTokenCreateRequest(
+#                     institution_id=institution_id, #"ins_1"
+#                     initial_products=[Products('transactions')],
+#                     options=SandboxPublicTokenCreateRequestOptions(
+#                         webhook="https://"+NGROKID+".ngrok.io/webhook-transactions/")
+#                 )
+
+#                 res = client.sandbox_public_token_create(pt_request)
+
+#                 public_token = res['public_token']

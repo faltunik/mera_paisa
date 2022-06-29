@@ -39,13 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # custom app
     'users',
     'core',
 
 
-    # custom app
+    # 3rd party app
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_celery_results',
 
 
 ]
